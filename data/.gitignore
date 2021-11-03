@@ -1,0 +1,8 @@
+**test**
+
+.DS_Store
+desktop.ini
+
+__pycacahe__/
+.ipynb_checkpoints/
+.gitattributes

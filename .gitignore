@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 test.ipynb
 **.ipynb
 **.py
 !project.ipynb
 
+=======
+**test**
+>>>>>>> 42b33760ba5a0d25106bf30c139d01aeb203f94c
 
 .DS_Store
 desktop.ini
