@@ -1,11 +1,4 @@
-data/
-results/
-
-test.ipynb
-**.ipynb
-**.py
-!project.ipynb
-
+**test**
 
 .DS_Store
 desktop.ini
