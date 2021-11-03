@@ -1,0 +1,15 @@
+data/
+results/
+
+test.ipynb
+**.ipynb
+**.py
+!project.ipynb
+
+
+.DS_Store
+desktop.ini
+
+__pycacahe__/
+.ipynb_checkpoints/
+.gitattributes
