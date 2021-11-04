@@ -1,11 +1,12 @@
-# Title
+# People's opinion on female representations in popular movies
 ## Milestone 2
 
 
 
 ### Abstract 
-A 150 word description of the project idea and goals. What’s the motivation behind your project? What story would you like to tell, and why?
-- Theme: the place of women in the movie industry 
+
+A study released in 2018 about women on-screen shows that female speaking characters in the top 100 movies accounted for just 31.8 percent of all roles. The controversy surrounding the last Marvel film "Black widow", criticized for its pseudo-feminism, shows that the problem of the representation of women is still relevant today. We wonder why the representation of women has not changed (or a little) for the 10 past years, and if it is due to the opinion people have on this representation. Therefore, the project aims to understand people's opinions about films that represent female characters. To do this, films of interest are selected according to the Bechdel test classifing movies depicting female characters in a non-sexist way. Quotebank will be used to determine people's opinions on the different selected films. A comparison will be made between the opinions about films that represent men and those representing women.
+
 
 ### Research Questions
 A list of research questions you would like to address during the project.
