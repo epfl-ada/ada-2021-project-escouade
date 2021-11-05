@@ -9,27 +9,13 @@ A study released in 2018 about women on-screen shows that female speaking charac
 
 
 ### Research Questions
-A list of research questions you would like to address during the project.
-- Who gives reviews on movies ? 
-    - genre/age
-    - newspaper
-    - professional field (?)
-    - occurence of the citation (number of URLs)
-    - gender visibility
-(Focus on Weinstein scandal ? (2017 or 2018-2019 to limit the dataset))
-(Positive or negative and correlate with the IMDb actors/producers/etc on it) 
+1. How does the memorability of a movie evolve regarding his characteristics (gender of producer, gender of actors, genre of movies, ratings, etc.) ? 
 
-- Memorability of movies using Quotebank
-    - subquestion by gendering 
+2. Who are the people talking about cinema, regarding gender and age ?
 
-- Using Quotebank to define how much about a movie is told (even without seeing it)
-    - example define genre only by the quotes
-    - predict ratings
-
-- Is there a correlation with the review on a movie and the genred figures involved in it ?
-- Compare ratings on IMDb with genred figures involved (ex. actors, producer, etc.)
-- Evolution across time of the place of women in the industry ?
-- Exploit the movie genre
+3. Using Quotebank to define how much about a movie is told (even without seeing it)
+    - predict genre
+    - predict ratings/reception
 
 ### Proposed additional datasets (if any)
 List the additional dataset(s) you want to use (if any), and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you’ve read the docs and some examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible.
