@@ -10,13 +10,21 @@ A study released in 2018 about women on-screen shows that female speaking charac
 
 ### Research Questions
 A list of research questions you would like to address during the project.
-- Who gives reviews on movies ?
+- Who gives reviews on movies ? 
     - genre/age
     - newspaper
     - professional field (?)
     - occurence of the citation (number of URLs)
+    - gender visibility
 (Focus on Weinstein scandal ? (2017 or 2018-2019 to limit the dataset))
 (Positive or negative and correlate with the IMDb actors/producers/etc on it) 
+
+- Memorability of movies using Quotebank
+    - subquestion by gendering 
+
+- Using Quotebank to define how much about a movie is told (even without seeing it)
+    - example define genre only by the quotes
+    - predict ratings
 
 - Is there a correlation with the review on a movie and the genred figures involved in it ?
 - Compare ratings on IMDb with genred figures involved (ex. actors, producer, etc.)
