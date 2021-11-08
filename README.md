@@ -27,8 +27,12 @@ In addition to Quotebank, which allows the automatic analysis of content in soci
 - (Blechdel test)
 
 ### Methods
-- On the Quotebank Dataset : "movies" NLP or extract the category on the URLs to have the quotes of interest !
-- Wikidata : extract characteristics of people (genre, age, professional field, etc)
+Before response to these questions we need to select relevant elements for each dataset.
+For Quotebank dataset, we decide to use the keyword "movies" and "cinema" to extract quotes of interest. Moreover we use also the category "movies" on the URLs.
+For Wikidata, we need to extract characteristics of quote's author and movie's actor and producer. The variables of interest are gender, age and professional field. 
+Finally, for IMDB dataset, we need movie's ratings, movie's actor and producer.
+
+In order to response to these question some tools need to be use. 
 
 ### Proposed timeline
 
