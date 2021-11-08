@@ -26,6 +26,8 @@ In addition to Quotebank, which allows the automatic analysis of content in soci
 - IMDb
 - (Blechdel test)
 
+"Proposed additional datasets (if any): List the additional dataset(s) you want to use (if any), and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you’ve read the docs and some examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible."
+
 ### Methods
 Before response to these questions we need to select relevant elements for each dataset.
 For Quotebank dataset, we decide to use the keyword "movies" and "cinema" to extract quotes of interest. Moreover we use also the category "movies" on the URLs.
