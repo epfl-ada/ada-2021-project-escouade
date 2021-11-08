@@ -1,5 +1,10 @@
+# ignoring everything except .gitignore and README
+**
+!.gitignore
+!README.md
+
 # ignoring all test items
-**test.ipynb
+**test**
 
 # ignoring system files
 .DS_Store
