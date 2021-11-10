@@ -32,7 +32,7 @@ IMDb is a free database that provides a lot of information about movies. This da
 
 
 ### Methods
-Before response to these questions we need to select relevant elements for each dataset. For Quotebank dataset, we decide to use the keyword "movies" and "cinema" to extract quotes of interest. Moreover, we use also the category "movies" on the URLs. For Wikidata, we need to extract characteristics of quote's author and movie's actor and producer. The variables of interest are gender, age and professional field. Finally, for IMDB dataset, we need movie's ratings, movie's actor and producer.
+Before response to these questions we need to select relevant elements for each dataset. For Quotebank dataset, we decide to use the keyword "movies" and "cinema" to extract quotes of interest. Moreover, we also use the category "movies" on the URLs. For Wikidata, we need to extract characteristics of quote's author and movie's actor and producer. The variables of interest are gender, age and professional field. Finally, for IMDB dataset, we need movie's ratings, movie's actor and producer.
 In order to response to this question some tools need to be use.
 
 First, for question one, we need to find movies of interest in quotbank. To do that, movie’s name in IMDb can serve as a keyword to extract quote related to movie. Then, thanks to IMDb and wikidata, we can add, for each movie selected, speaker’s, actor’s and producer’s gender and movie’s rating. Finally, in order to see the evolution of the movie’s memorability, a timeline of the quotes can be done. An analysis of memorability considering the features can now be done using statistic test between variables. 
@@ -48,18 +48,19 @@ Milestone 3 is due to 17 December and homework 2 is due to 26 November. So, we h
 •	26 November until 3 December the question 1 and 2 should be done
     - Benoit: extract quote related to movie
     - Céline: add gender of person of interest in the dataset (wikidata and IMDB)
-    - Maud and Inès: analyse for response to question 1 and 2
+    - Maud and Inès: do the analyzes to answer the question 1 and 2 
 
-•	3 December until 10 December the question 3 should be done and getting started with how Jekyll works.
+•	3 December until 10 December the question 3 should be done and start to learn how Jekyll works.
     - Groups working together to response question 3 
     - One of the team will focus on Jeckyll
 
 •	10 December until 17 December we will create the web site with our data story and complete README with members contributions and URL of the data story. 
     - Benoit create data story for question 1
-    - Céline create data story for question 3
-    - Maud finishes the README
+    - Céline create data story for question 2
     - Inès create data story for question 3
-.
+    - Maud finishes the README
+    
+
 
 ### Questions for TAs (optional)
 Add here any questions you have for us related to the proposed project.
