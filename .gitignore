@@ -6,6 +6,6 @@
 desktop.ini
 
 # ignorig temp file for diverse applications
-__pycacahe__/
+**/__pycacahe__/
 .ipynb_checkpoints/
 .gitattributes
