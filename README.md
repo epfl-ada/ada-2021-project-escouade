@@ -20,13 +20,16 @@ For feminist film studies, some of the most recent ground-breaking work has been
 ### Proposed additional datasets (if any)
 List the additional dataset(s) you want to use (if any), and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you’ve read the docs and some examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible.
 
-In addition to Quotebank, which allows the automatic analysis of content in social and traditional media, two other databases will be used for the project :
+In addition to Quotebank, which allows the automatic analysis of content in social and traditional media, two other databases will be used for this project :
 
 - Wikidata 
-- IMDb
-- (Blechdel test)
 
-"Proposed additional datasets (if any): List the additional dataset(s) you want to use (if any), and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you’ve read the docs and some examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible."
+A database that provides additional attributes about people of interest. In order to answer our research questions, we need to extract the gender of different protagonists (speakers, producers, actors), as such as the speaker's professional environment and their age. Additional metadata about speakers in the Quotebank dataset are already provided in a file named speaker_attributes.parquet. This file will be enriched with attributes of other protagonists, that will be extract wih a python3 code.
+
+- IMDb 
+
+IMDb is a free database that provides a lot of information about movies. This database is available online. Ratings and genre of movies are needed for the project. 
+
 
 ### Methods
 Before response to these questions we need to select relevant elements for each dataset. For Quotebank dataset, we decide to use the keyword "movies" and "cinema" to extract quotes of interest. Moreover, we use also the category "movies" on the URLs. For Wikidata, we need to extract characteristics of quote's author and movie's actor and producer. The variables of interest are gender, age and professional field. Finally, for IMDB dataset, we need movie's ratings, movie's actor and producer.
