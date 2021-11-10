@@ -1,4 +1,4 @@
-# How big is the impact of public opinion on the film industry?
+# What can people sayings say about the film industry, and how gender affects it ?
 ## Milestone 2
 
 
@@ -9,26 +9,27 @@ For feminist film studies, some of the most recent ground-breaking work has been
 
 
 ### Research Questions
-1. How does the memorability of a movie evolve regarding his characteristics (gender of producer, gender of actors, genre of movies, ratings, etc.) ? 
+1. Who are the people talking about cinema, regarding gender and age ?
 
-2. Who are the people talking about cinema, regarding gender and age ?
+2. How does the memorability of a movie evolve regarding his characteristics (gender of producer, gender of actors, genre of movies, ratings, etc.) ? 
 
-3. Using Quotebank to define how much about a movie is told (even without seeing it)
-    - predict genre
-    - predict ratings/reception
+3. Could Quotebank's data predict the genre and the ratings of a movie ?
+ 
 
 ### Proposed additional datasets (if any)
 List the additional dataset(s) you want to use (if any), and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you’ve read the docs and some examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible.
 
-In addition to Quotebank, which allows the automatic analysis of content in social and traditional media, two other databases will be used for this project :
+In addition to Quotebank, two other databases will be used for this project :
 
 - Wikidata 
 
-A database that provides additional attributes about people of interest. In order to answer our research questions, we need to extract the gender of different protagonists (speakers, producers, actors), as such as the speaker's professional environment and their age. Additional metadata about speakers in the Quotebank dataset are already provided in a file named speaker_attributes.parquet. This file will be enriched with attributes of other protagonists, that will be extract wih a python3 code.
+A database that provides additional attributes about people of interest. In order to answer our research questions, we need to extract the gender of different protagonists (speakers, producers, actors), as such as the speaker's professional environment and their age. Additional metadata about speakers in the Quotebank dataset are already provided in a file named speaker_attributes.parquet. This file will be enriched with attributes of other protagonists, that will be extract wih a python3 code. API's will be used for this.
+source : https://www.wikidata.org/
 
 - IMDb 
 
-IMDb is a free database that provides a lot of information about movies. This database is available online. Ratings and genre of movies are needed for the project. 
+Internet Movie Database (IMDb) is an open source database that provides a lot of information about movies. This database is available online, separated in six datasets. This datasets were concatenated and treated in one single dataset. Columns were filtrated regarding of the needs of the research. Columns of interest are the following : title, year, genres, crew (producer, cinematographer, writer), actors, ratings.  
+source : https://www.imdb.com/interfaces/
 
 
 ### Methods
