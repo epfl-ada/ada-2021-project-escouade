@@ -1,5 +1,7 @@
 # ignoring everything except .gitignore and README
 **
+!quotes-2018_0.1pct.json.bz2
+!quotes-2018_1pct.json.bz2
 !.gitignore
 !README.md
 
