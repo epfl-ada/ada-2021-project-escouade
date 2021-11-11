@@ -1,6 +1,9 @@
 # ignoring all test items
 **test**
 
+# ignoring sampling script
+src/sampling.ipynb
+
 # Keeping all README.md
 !*README.md
 
