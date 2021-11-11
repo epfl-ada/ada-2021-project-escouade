@@ -33,14 +33,17 @@ source : https://www.imdb.com/interfaces/
 
 ### Methods
 
-Before response to these questions we need to select relevant elements for each dataset. For Quotebank dataset, we decide to use the keyword "movies" and "cinema" to extract quotes of interest. Moreover, we also use the category "movies" on the URLs. For Wikidata, we need to extract characteristics of quote's author and movie's actor and producer. The variables of interest are gender, age and professional field. Finally, for IMDB dataset, we need movie's ratings, movie's actor and producer.
+First, we create four notebooks, one for pre-processing and one for each question.  
+
+1.	Before response to these questions, in first notebook, we need to select relevant elements for each dataset. For Quotebank dataset, we decide to use the keyword "movie", "cinema" and “film” who are on the URLs to extract quotes of interest. For Wikidata, we need to extract characteristics of quote's author and movie's actor, producer and director. The variables of interest are gender and age. Finally, for IMDb dataset, we need movie's ratings, movie's actor, producer and director, rating and release date. 
+
 In order to response to this question some tools need to be use.
 
-First, for question one, we need to find movies of interest in quotbank. To do that, movie’s name in IMDb can serve as a keyword to extract quote related to movie. Then, thanks to IMDb and wikidata, we can add, for each movie selected, speaker’s, actor’s and producer’s gender and movie’s rating. Finally, in order to see the evolution of the movie’s memorability, a timeline of the quotes can be done. An analysis of memorability considering the features can now be done using statistic test between variables. 
+2.	First, for question one, about who taking about cinema, we need to attribute gender and age to speakers. This information can be reach by research quote’s speaker’s gender and age in wikidata.  Then, an analysis of these variable can be realized using statistic test, distribution, and regression. 
 
-For the second question, about who taking about cinema, we need to attribute gender and age to the speaker. This information can be reach by research quote’s speaker’s gender and age in wikidata.  Then, an analysis of these variable can be realized using statistic test, distribution, and regression. 
+3.	For the second question, we need to find movies of interest in quotebank. To do that, movie’s name in IMDb can serve as a keyword to extract quote related to movie in quotebank. Then, thanks to IMDb and wikidata, we can add, for each movie selected, speaker’s, actor’s and producer’s gender and movie’s rating. Finally, in order to see the evolution of the movie’s memorability, a timeline of the quotes can be done. An analysis of memorability considering the features can now be done using statistic test between variables. 
 
-And finally, we wonder if it’s possible to predict movie’s genre and ratings regarding the memorability. To do so, a logistic or linear regression can be used to determine if genre and rating are predictor or not. 
+4.	And finally, we wonder if it’s possible to predict movie’s genre and ratings regarding the memorability. To do so, a logistic or linear regression can be used to determine if genre and rating are predictor or not. 
 
 
 ### Proposed timeline and Organization within the team
