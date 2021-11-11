@@ -2,13 +2,13 @@
 ## Milestone 2
 
 
-
 ### Abstract 
 
-For feminist film studies, some of the most recent ground-breaking work has been on recovering women’s film history. Another study released in 2018 about women on-screen shows that female speaking characters in the top 100 movies accounted for just 31.8 percent of all roles. We wonder why the representation of women has not changed (or a little) for the 10 past years, and if it is due to the opinion people have on this representation. The aim of the project is to understand how public opinion impacts the film industry, by automatically analyzing quotations about movies in social and traditional media. The first part of the project deals with the analysis of the relation between public opinion and the general reception a film receives, focusing on gender issues. In the second part, public opinion will be used to predict the different characteristics of a film.
+The goal of the project is to understand how public opinion about the movies can impact the film industry. For this, we are using Quotebank, a dataset of speaker-attributed quotations that were extracted from news articles and web domains between 2008 and 2020. By automatically analyzing quotations about movies in the media, this project aims to respond the following question : What can people sayings say about the film industry, and how gender affects it ? The first part of the project deals with the analysis of the relation between quotations and the general reception a film receives, focusing on gender issues. In a second part, quotations will be used to predict the different characteristics of a film.
 
 
 ### Research Questions
+
 1. Who are the people talking about cinema, regarding gender and age ?
 
 2. How does the memorability of a movie evolve regarding his characteristics (gender of producer, gender of actors, genre of movies, ratings, etc.) ? 
@@ -17,7 +17,6 @@ For feminist film studies, some of the most recent ground-breaking work has been
  
 
 ### Proposed additional datasets (if any)
-List the additional dataset(s) you want to use (if any), and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you’ve read the docs and some examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible.
 
 In addition to Quotebank, two other databases will be used for this project :
 
@@ -33,6 +32,7 @@ source : https://www.imdb.com/interfaces/
 
 
 ### Methods
+
 Before response to these questions we need to select relevant elements for each dataset. For Quotebank dataset, we decide to use the keyword "movies" and "cinema" to extract quotes of interest. Moreover, we also use the category "movies" on the URLs. For Wikidata, we need to extract characteristics of quote's author and movie's actor and producer. The variables of interest are gender, age and professional field. Finally, for IMDB dataset, we need movie's ratings, movie's actor and producer.
 In order to response to this question some tools need to be use.
 
@@ -60,8 +60,8 @@ Milestone 3 is due to 17 December and homework 2 is due to 26 November. So, we h
     - Céline create data story for question 2
     - Inès create data story for question 3
     - Maud finishes the README
-    
 
 
-### Questions for TAs (optional)
-Add here any questions you have for us related to the proposed project.
+### Questions for TAs 
+
+Crossing databases is going to pose a data size problem. We are thinking about reducing the data of interest to one or two particular years (e.g. 2018-2019 to be recent without taking into account Covid-related variables).
