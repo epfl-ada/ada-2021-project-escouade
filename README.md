@@ -54,23 +54,28 @@ And finally, we wonder if it’s possible to predict movie’s genre and ratings
 ### Proposed timeline and Organization within the team
 
 Milestone 3 is due on 17 December and homework 2 is due on 26 November. For M3 we need to complete the project proposed in M2 and communicate our result with data story.
+
 •	Until 26 November the data should be enriched and ready to analyse
-    - Benoit & Inès: cleaning QUOTEBANK plus adding gender and age
-    - Céline & Maud: cleaning IMDb plus adding gender and age for people of interest with Wikidata API
+
+- Benoit & Inès: cleaning QUOTEBANK plus adding gender and age
+- Céline & Maud: cleaning IMDb plus adding gender and age for people of interest with Wikidata API
 
 •	26 November until 3 December the question 1 and 2 should be done
-    - Benoit: process the data to answer question 1
-    - Céline: process the data to answer question 2
-    - Maud and Inès: visualize data and create story to questions 1 and 2
-    - All team: start processing data for question 3
+
+- Benoit: process the data to answer question 1
+- Céline: process the data to answer question 2
+- Maud and Inès: visualize data and create story to questions 1 and 2
+- All team: start processing data for question 3
 
 •	3 December until 10 December the question 3 should be done and start to learn how Jekyll works.
-    - Group working together to response question 3
-    - One of the team member will focus on Jeckyll
+
+- Group working together to response question 3
+- One of the team member will focus on Jeckyll
 
 •	10 December until 17 December we will create the web site with our data story and complete README with members contributions and URL of the data story.
-    - Group create data story for question 3
-    - Maud finishes the README
+
+- Group create data story for question 3
+- Maud finishes the README
 
 
 ### Questions for TAs
