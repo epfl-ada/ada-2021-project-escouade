@@ -1,11 +1,27 @@
 # ignoring all test items
 **test**
 
-# ignoring system files
-.DS_Store
-desktop.ini
+# Keeping all README.md
+!*README.md
 
-# ignorig temp file for diverse applications
-**/__pycacahe__/
-.ipynb_checkpoints/
-.gitattributes
+# ignoring config file (each user has a different, don't want to sync it)
+src/ressources/config.py
+
+# ignoring big data files from /data
+/data/QUOTEBANK/**
+/data/WIKIDATA/**
+/data/IMDb/**
+
+# ignoring temporary data
+/temp/**
+
+# ignoring system files
+**.DS_Store
+**desktop.ini
+
+# ignorig temp and sys file for diverse applications
+*.pyo
+*.pyc
+**__pycache__/
+**.ipynb_checkpoints/
+**.gitattributes
