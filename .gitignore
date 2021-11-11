@@ -17,14 +17,15 @@ src/ressources/config.py
 
 # ignoring temporary data
 /temp/**
+!/temp/README.md
 
 # ignoring system files
 **.DS_Store
 **desktop.ini
 
 # ignorig temp and sys file for diverse applications
-*.pyo
-*.pyc
+**.pyo
+**.pyc
 **__pycache__/
 **.ipynb_checkpoints/
 **.gitattributes
