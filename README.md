@@ -33,7 +33,7 @@ source : https://www.imdb.com/interfaces/
 
 ### Method
 
-We created four notebooks, one for pre-processing and one for each question. This allows us to better distribute the work within the team and reduce the risk of conflict
+We created four notebooks (in src directory), one for pre-processing and one for each question. This allows us to better distribute the work within the team and reduce risks of conflict
 
 #### Notebook_0: Preprocessing
 To answer our questions, we need to select relevant elements in each dataset in order to reduce their size and therefore the following tasks' computing time.
