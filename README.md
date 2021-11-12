@@ -22,7 +22,7 @@ In addition to Quotebank, two other databases will be used for this project :
 
 - Wikidata
 
-A database that provides additional attributes about people of interest. In order to answer our research questions, we need to extract the gender of different protagonists (speakers, producers, actors), as such as the speaker's age. Additional metadata about speakers in the Quotebank dataset are already provided in a file named speaker_attributes.parquet. This file will be enriched with attributes of other protagonists, that will be extract wih a python3 code. API's will be used for this.
+A database that provides additional attributes about people of interest. In order to answer our research questions, we need to extract the gender, the age of different protagonists (speakers, producers, actors), and release date of the movies. Additional metadata about speakers in the Quotebank dataset are already provided in a file named speaker_attributes.parquet. This file will be enriched with attributes of other protagonists, that will be extract wih a python3 code. API's will be used for this.
 source : https://www.wikidata.org/
 
 - IMDb
@@ -38,7 +38,7 @@ We created four notebooks, one for pre-processing and one for each question. Thi
 #### Notebook_0: Preprocessing
 To answer our questions, we need to select relevant elements for each dataset in order to reduce their size and therefore the following tasks' computing time.
 - For Quotebank dataset, we decide to keep only the quotes presenting the keywords "movie", "cinema" and “film” in either the quote itself or the url of the articles.
-- For Wikidata, for all the informations about the Quotebank speakers, we used the provided structured data (parquet files) to extract the gender and the age of the speaker. For the actors and crew members from the films, we made a python script based on Wikidata API to collect info based on IMDb ID. We did so because in our opinion it was better to do so than to download and parse the json dump of 100GB.
+- For Wikidata, for all the informations about the Quotebank speakers, we used the provided structured data (parquet files) to extract the gender, the age of the speaker and the release date of movies. For the actors and crew members from the films, we made a python script based on Wikidata API to collect info based on IMDb ID. We did so because in our opinion it was better to do so than to download and parse the json dump of 100GB.
 - For IMDb dataset, we filtered out all series & co to keep only the informations about movies. Then we need to enrich the dataset with the gender of the actors and crew members via the Wikidata API.
 
 #### Notebook_1: Question 1
