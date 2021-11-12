@@ -22,7 +22,7 @@ In addition to Quotebank, two other databases will be used for this project :
 
 - Wikidata
 
-A database that provides additional attributes about people of interest. In order to answer our research questions, we need to extract the gender of different protagonists (speakers, producers, actors), as such as the speaker's professional environment and their age. Additional metadata about speakers in the Quotebank dataset are already provided in a file named speaker_attributes.parquet. This file will be enriched with attributes of other protagonists, that will be extract wih a python3 code. API's will be used for this.
+A database that provides additional attributes about people of interest. In order to answer our research questions, we need to extract the gender of different protagonists (speakers, producers, actors), as such as the speaker's age. Additional metadata about speakers in the Quotebank dataset are already provided in a file named speaker_attributes.parquet. This file will be enriched with attributes of other protagonists, that will be extract wih a python3 code. API's will be used for this.
 source : https://www.wikidata.org/
 
 - IMDb
