@@ -42,7 +42,7 @@ To answer our questions, we need to select relevant elements for each dataset in
 - For IMDb dataset, we filtered out all series & co to keep only the informations about movies. Then we need to enrich the dataset with the gender of the actors and crew members via the Wikidata API.
 
 #### Notebook_1: Question 1
-First, for question one, about who taking about cinema, we need to attribute gender and age to speakers. This information can be reach by research quote’s speaker’s gender and age in wikidata.  Then, an analysis of these variable can be realized using statistic test, distribution, and regression.
+For this question, we need to attribute gender and age to speakers. This information can be found in wikidata parquet. Then, an analysis of these variable can be realized using aggregation, and then statistic tes and/or distribution.
 
 #### Notebook_2: Question 2
 For the second question, we need to find movies of interest in quotebank. To do that, movie’s name in IMDb can serve as a keyword to extract quote related to movie in quotebank. Then, thanks to IMDb and Wikidata, we can add, for each movie selected, speaker’s, actor’s and producer’s gender and movie’s rating. Finally, in order to see the evolution of the movie’s memorability, a timeline of the quotes can be done. An analysis of memorability considering the features can now be done using statistic test between variables.
