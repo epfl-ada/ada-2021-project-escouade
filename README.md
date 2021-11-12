@@ -11,7 +11,7 @@ The goal of the project is to understand how public opinion about the movies can
 
 1. Who are the people talking about cinema, regarding gender and age ?
 
-2. How does the memorability of a movie evolve regarding his characteristics (gender of producer / actors, genre of movies, ratings, etc.) ?
+2. How does the memorability of a movie evolve regarding his characteristics (gender of producer/actors, genre of movies, ratings, etc.) ?
 
 3. Could Quotebank's data predict the genre and/or the ratings of a movie ?
 
