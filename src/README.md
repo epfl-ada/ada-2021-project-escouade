@@ -1,2 +1,2 @@
 # ADA 2021
-### Folder containing Code ann Notebooks used to complete the project
+### Folder containing Code and Notebooks used to complete the project
