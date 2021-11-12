@@ -4,14 +4,14 @@
 
 ### Abstract
 
-The goal of the project is to understand how public opinion about the movies can impact the film industry. For this, we are using Quotebank, a dataset of speaker-attributed quotations that were extracted from news articles and web domains between 2008 and 2020. By automatically analyzing quotations about movies in the media, this project aims to respond the following question : What can people sayings say about the film industry, and how gender affects it ? The first part of the project deals with the analysis of the relation between quotations and the general reception a film receives, focusing on gender issues. In a second part, quotations will be used to predict the different characteristics of a film.
+The goal of the project is to understand how public opinion about the movies can impact the film industry. For this, we are using Quotebank, a dataset of speaker-attributed quotations that were extracted from news articles and web domains between 2008 and 2020. By automatically analyzing quotations about movies in the media, this project aims to respond the following question : *What can people sayings say about the film industry, and how gender affects it ?* The first part of the project deals with the analysis of the relation between quotations and the general reception a film receives, focusing on gender issues. In a second part, quotations will be used to predict the different characteristics of a film.
 
 
 ### Research Questions
 
 1. Who are the people talking about cinema, regarding gender and age ?
 
-2. How does the memorability of a movie evolve regarding his characteristics (gender of producer / actors, genre of movies, ratings, etc.) ?
+2. How does the memorability of a movie evolve regarding his characteristics (gender of producer/actors, genre of movies, ratings, etc.) ?
 
 3. Could Quotebank's data predict the genre and/or the ratings of a movie ?
 
