@@ -45,10 +45,10 @@ To answer our questions, we need to select relevant elements for each dataset in
 First, for question one, about who taking about cinema, we need to attribute gender and age to speakers. This information can be reach by research quote’s speaker’s gender and age in wikidata.  Then, an analysis of these variable can be realized using statistic test, distribution, and regression.
 
 #### Notebook_2: Question 2
-For the second question, we need to find movies of interest in quotebank. To do that, movie’s name in IMDb can serve as a keyword to extract quote related to movie in quotebank. Then, thanks to IMDb and wikidata, we can add, for each movie selected, speaker’s, actor’s and producer’s gender and movie’s rating. Finally, in order to see the evolution of the movie’s memorability, a timeline of the quotes can be done. An analysis of memorability considering the features can now be done using statistic test between variables.
+For the second question, we need to find movies of interest in quotebank. To do that, movie’s name in IMDb can serve as a keyword to extract quote related to movie in quotebank. Then, thanks to IMDb and Wikidata, we can add, for each movie selected, speaker’s, actor’s and producer’s gender and movie’s rating. Finally, in order to see the evolution of the movie’s memorability, a timeline of the quotes can be done. An analysis of memorability considering the features can now be done using statistic test between variables.
 
 #### Notebook_3: Question 3
-And finally, we wonder if it’s possible to predict movie’s genre and ratings regarding the memorability. To do so, a logistic or linear regression can be used to determine if genre and rating are predictor or not.
+Finally, we wonder if it’s possible to predict movie’s genre and ratings regarding several features. We want to test if the memorability of a movie and the gender of actors, directors, producers and writers are predictive of the genre and the rating of a movie. To do so, we will train a model under a supervised learning method, using a logistic or linear regression.
 
 
 ### Proposed timeline and Organization within the team
