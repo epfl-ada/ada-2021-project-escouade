@@ -33,17 +33,17 @@
   
 3. Question 2
 
-  - commet on définit la mémorabilité ? --> très important de bien le définir
-  - entrée : Quotebank avec 'date_citation', 'name_film', 'id_film'
-  - supprimer les quote qui ne parle pas d'un film spécifique --> donc celles qui parlent de cinéma mais pas d'un film spécifique
+      - commet on définit la mémorabilité ? --> très important de bien le définir
+      - entrée : Quotebank avec 'date_citation', 'name_film', 'id_film'
+      - supprimer les quote qui ne parle pas d'un film spécifique --> donc celles qui parlent de cinéma mais pas d'un film spécifique
 
 
-  - entrée 2 : IMDb, 'gender_all', 'gender_directors' (0 : male, 1 : female, on prend pas les other) (pourcentage de femmes), 'film_name', 'film_id', 'genre_film', 'ratings' et potentiellement d'autres colonnes de pourcentage de genre
-  - task : left merge quotebank et IMDb. Si mémorabilité dépend que de quotebank pas besoin de merger les deux.
-  - sort by film_id : itere row (on peut alors faire des actions ligne par ligne sur des lignes qui parlent du même film) : appliquer la mémorabilité (selon méthode choisie). Stocker le résultat dans un nouvelle df: 'film_id', 'memorability'. Merge avec IMDb qu'on avait en entrée.
-  - task (la mê) : add column sur le df = 'memorability' --> iterrow (ou autre si on arrive pas à charger le df en mémoire) et on applique le calcul de memorability pour chaque ligne
-  - taskme mais expliqué différemment : add column sur le df = 'memorability' --> iterrow (ou autre si on arrive pas à charger le df en mémoire) et on applique le calcul de memorability pour chaque ligne
-  - visualisation et data story
+      - entrée 2 : IMDb, 'gender_all', 'gender_directors' (0 : male, 1 : female, on prend pas les other) (pourcentage de femmes), 'film_name', 'film_id', 'genre_film', 'ratings' et potentiellement d'autres colonnes de pourcentage de genre
+      - task : left merge quotebank et IMDb. Si mémorabilité dépend que de quotebank pas besoin de merger les deux.
+      - sort by film_id : itere row (on peut alors faire des actions ligne par ligne sur des lignes qui parlent du même film) : appliquer la mémorabilité (selon méthode choisie). Stocker le résultat dans un nouvelle df: 'film_id', 'memorability'. Merge avec IMDb qu'on avait en entrée.
+      - task (la mê) : add column sur le df = 'memorability' --> iterrow (ou autre si on arrive pas à charger le df en mémoire) et on applique le calcul de memorability pour chaque ligne
+      - taskme mais expliqué différemment : add column sur le df = 'memorability' --> iterrow (ou autre si on arrive pas à charger le df en mémoire) et on applique le calcul de memorability pour chaque ligne
+      - visualisation et data story
 
 4. Question 3
 
