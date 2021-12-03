@@ -28,6 +28,7 @@
 2. Question 1
 
       - Entrée : df1 qui contient 'quote', 'sexe', 'age', déjà filtré avec les quotes relevant
+      - Sanitariser : les virgules posent probleme pour lexicon
       - Explo des données
       - Visualisation, distribution, etc --> production de résultats et interprétation / data story
   
