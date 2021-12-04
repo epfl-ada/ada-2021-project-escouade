@@ -41,7 +41,7 @@ class Empath:
                     #self.invcats[t].append(name)
 
                     
-    def analyze(self,doc,categories=None,tokenizer="default",normalize=False):
+    def analyze(self, doc, categories = None, tokenizer = "default", normalize = False, verbose = False):
         if isinstance(doc,list):
             doc = "\n".join(doc)
         if tokenizer == "default":
@@ -55,6 +55,8 @@ class Empath:
             raise Exception("invalid tokenizer")
         if not categories:
             categories = self.cats.keys()
+        if verbose:
+            match = []
         invcats = defaultdict(list)
         key = tuple(sorted(categories)) # key : catégorie(s)
         if key in self.inv_cache:
@@ -66,11 +68,11 @@ class Empath:
         count = {}
         tokens = 0.0
         for cat in categories: count[cat] = 0.0
-        print(list(tokenizer(doc, n)))
-        print(invcats)
         for tk in tokenizer(doc, n):
             tokens += 1.0
             for cat in invcats[tk]:
+                if verbose:
+                    match.append(tk)
                 count[cat]+=1.0
         if normalize:
             for cat in count.keys():
@@ -78,7 +80,10 @@ class Empath:
                     return None
                 else:
                     count[cat] = count[cat] / tokens
-        return count
+        if verbose:
+            return {'count': count, 'match': list(set(match))}
+        else:
+            return {'count': count}
 
     
     def create_category(self, name, array, path):
@@ -98,7 +103,7 @@ if __name__ == '__main__':
     lexicon.create_category("ADA_cinema_test3", film_name_test + person_name_test, path = 'empath_cat/test3.empath')
     empath_features = lexicon.analyze('Belle Bennett', 
                                   categories = ['ADA_cinema_test3'], 
-                                  tokenizer = 3)
+                                  tokenizer = 3, verbose = 1)
     print(empath_features)
     
     #print(list(bigram_tokenizer('Belle Bennett rat hftb')))
