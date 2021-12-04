@@ -8,8 +8,8 @@
       - ~~standardiser date_birth depuis date_birth avec gestion des erreurs~~
     
     Quotebank : 
+      -  filtrer par rapport aux mots-clés (en choississant une méthode pour le choix des mots-clé) --> enelver tout ceux qui parlent pas de notre thème. On peut ajouter une colonne 'relevant' avec 0 pour faux et 1 pour True et après on filtre pour enregistrer dans un nouveau fichier
       - rajouter les données de Wikidata depuis le fichier wikidata : sexe pour chaque speeker
-      - filtrer par rapport aux mots-clés (en choississant une méthode pour le choix des mots-clé) --> enelver tout ceux qui parlent pas de notre thème. On peut ajouter une colonne 'relevant' avec 0 pour faux et 1 pour True et après on filtre pour enregistrer dans un nouveau fichier
       - valeur 'None' pour speaker : on les supprime ?
       - si sexe ni homme ni femme : remplacer par 'other' --> normalement ça sera déjà le cas dans le fichier Wikidata, mais juste faire un values_count() pour vérifier
       - colonne pour dire de quel film ça parle --> recherche par mots-clés (comme vu en cours / lab) et on met dans une colonne de quel film ça parle (le nom du film)
