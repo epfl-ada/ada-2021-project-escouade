@@ -5,7 +5,7 @@
 
     Wikidata : (les fichiers fournis par les assistants)
       - ~~mettre 'other' dans sexe. On avait déjà mis male female mais il faut mettre other pour le reste~~
-      - ajouter âge depuis date_birth
+      - ~~standardiser date_birth depuis date_birth avec gestion des erreurs~~
     
     Quotebank : 
       - rajouter les données de Wikidata depuis le fichier wikidata : sexe pour chaque speeker
