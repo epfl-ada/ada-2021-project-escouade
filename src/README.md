@@ -4,7 +4,8 @@
 1. Finir nos bases de données IMDb et Quotebank 
 
     Wikidata : (les fichiers fournis par les assistants)
-      - mettre 'other' dans sexe. On avait déjà mis male female mais il faut mettre other pour le reste
+      - ~~mettre 'other' dans sexe. On avait déjà mis male female mais il faut mettre other pour le reste~~
+      - ajouter âge depuis date_birth
     
     Quotebank : 
       - rajouter les données de Wikidata depuis le fichier wikidata : sexe pour chaque speeker
