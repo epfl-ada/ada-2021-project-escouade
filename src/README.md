@@ -17,7 +17,7 @@
 
     IMDb : 
     - rajouter le sexe pour toutes les personnes (male/female/other) --> time.sleep pour pas DDOS, avec l'API Wikidata, mais si ça marche pas on peut faire avec le fichier de 100 Go
-    - checker si bien supprimé directeurs des acteurs --> Céline sait de quoi ça parle
+    - ~~checker si bien supprimé directeurs des acteurs --> Céline sait de quoi ça parle~~
     - colonne date de sortie des films (API wikidata) --> time.sleep pour pas DDOS
     - ~~création de deux listes (peut-être après tuple) (sauvegardé en pickle) où figurent tous les noms de films et une autre liste pour le nom des crew/acteurs,      sauvegardé dans generated --> ça sera utile pour après, genre recherche par mots clés~~
     - rajouter une colonne par film 'gender_all' : pourcentage de femmes (0 : male, 1 : female) (comme un LR, et on s'affranchit des others)
