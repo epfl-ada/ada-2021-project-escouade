@@ -4,7 +4,8 @@
 1. Finir nos bases de données IMDb et Quotebank 
 
     Wikidata : (les fichiers fournis par les assistants)
-      - mettre 'other' dans sexe. On avait déjà mis male female mais il faut mettre other pour le reste
+      - ~~mettre 'other' dans sexe. On avait déjà mis male female mais il faut mettre other pour le reste~~
+      - ~~prendre le pickle de WikiData et faire un dico avec : { ‘P1234’ : {‘gender’ : ‘female’ , ‘dob’ : ´01.01.2001’ , ‘label’ : ‘Winnie Ourson’}, une autre personne } et l’enregistrer en pickle dans le dossier generated~~.
     
     Quotebank : 
       - rajouter les données de Wikidata depuis le fichier wikidata : sexe pour chaque speeker
