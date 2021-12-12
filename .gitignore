@@ -9,11 +9,14 @@ src/sampling.ipynb
 
 # ignoring config file (each user has a different, don't want to sync it)
 src/ressources/config.py
+src/main_df
+src/nconst_names.pickle
 
 # ignoring big data files from /data
 /data/QUOTEBANK/**
 /data/WIKIDATA/**
 /data/IMDb/**
+/generated/**
 
 # ignoring temporary data
 /temp/**
@@ -29,3 +32,7 @@ src/ressources/config.py
 **__pycache__/
 **.ipynb_checkpoints/
 **.gitattributes
+**.pickle
+**.json
+**.json.bz2
+
