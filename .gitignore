@@ -1,6 +1,12 @@
 # ignoring all test items
 **test**
 
+# ignoring venv items
+**venv**
+
+# igoring weird folder
+.idea/
+
 # ignoring sampling script
 src/sampling.ipynb
 
