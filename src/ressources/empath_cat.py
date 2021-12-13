@@ -1,6 +1,5 @@
 import os
 from collections import defaultdict
-import json
 
 
 def default_tokenizer(doc, n = None):
@@ -23,6 +22,7 @@ def n_tokenizer(doc, n):
 class Empath:
     def __init__(self, cat_folder_path):
         self.cats = defaultdict(list)
+        self.path = cat_folder_path
         self.staging = {}
         self.inv_cache = {}
         for f in os.listdir(cat_folder_path):
@@ -41,9 +41,10 @@ class Empath:
                     #self.invcats[t].append(name)
 
                     
-    def analyze(self, doc, categories = None, tokenizer = "default", normalize = False, verbose = False):
+    def analyze(self, doc, categories = None, tokenizer = "default", normalize = False, verbose = False, debug = False):
         if isinstance(doc,list):
             doc = "\n".join(doc)
+        
         if tokenizer == "default":
             tokenizer = default_tokenizer
         elif tokenizer == "bigrams":
@@ -51,29 +52,36 @@ class Empath:
         elif isinstance(tokenizer, int):
             n = tokenizer
             tokenizer = n_tokenizer
+        
         if not hasattr(tokenizer,"__call__"):
             raise Exception("invalid tokenizer")
+        
         if not categories:
             categories = self.cats.keys()
+        
         if verbose:
             match = []
+        
         invcats = defaultdict(list)
         key = tuple(sorted(categories)) # key : catégorie(s)
+        
         if key in self.inv_cache:
             invcats = self.inv_cache[key]
         else:
             for k in categories:
                 for t in self.cats[k]: invcats[t].append(k)
             self.inv_cache[key] = invcats
+        
         count = {}
         tokens = 0.0
         for cat in categories: count[cat] = 0.0
         for tk in tokenizer(doc, n):
             tokens += 1.0
-            for cat in invcats[tk]:
-                if verbose:
-                    match.append(tk)
-                count[cat]+=1.0
+            if tk in invcats.keys():
+                for cat in invcats[tk]:
+                    if verbose:
+                        match.append(tk)
+                    count[cat]+=1.0
         if normalize:
             for cat in count.keys():
                 if tokens == 0:
@@ -86,7 +94,8 @@ class Empath:
             return {'count': count}
 
     
-    def create_category(self, name, array, path):
+    def create_category(self, name, array):
+        path = f"{self.path}/{name}.empath"
         array = list(set(array))
         result = array
         result = list(map(lambda x : x.replace(" ", "_"), array))
