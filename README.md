@@ -57,15 +57,16 @@ For this question, we need to retrieve the gender of speakers. This is done with
 For the second question, we need to find movies of interest in Quotebank. To do that, movie’s name in IMDb can serve as a keyword to extract quote related to movies in quotebank. Then, thanks to IMDb and Wikidata, we can add to those quotes the speaker’s, actor’s and producer’s gender, movie’s rating and release date of the movies. To reduce the gender to only one variable, we decides to attribute a score to each movie, and the score is simply the percentage of women involved. Finally, in order to investigate the movie’s memorability, we can aggregate quotes by film and look at the distribution of the quotes' date arround the release date. An analysis of memorability considering the features can now be done using statistic test between variables.
 
 #### Notebook_6: Question 3
-Finally, we wonder if it’s possible to predict movie’s ratings regarding several features. We want to test if the memorability of a movie and the gender of actors, directors, producers and writers are predictive of the genre and the rating of a movie. To do so, we will train a model under a supervised learning method, using a logistic or linear regression.
+Finally, we wonder if it’s possible to predict movie’s ratings regarding several features. We want to test if the memorability of a movie and the gender of actors, directors, producers and writers are predictive of the rating of a movie. To do so, we will train a model under a supervised learning method, using a logistic or linear regression.
 
 
 ### Contribution of team members
-Céline: IMDb expert
 
-Inès: Wonderfull website designer
+Céline: IMDb expert and serial pickle maker
 
-Maud: Astonishing vizualisation maker
+Inès: Wonderfull website designer and problem resolver
+
+Maud: Astonishing vizualisation maker and question answering machine
 
 Benoît: Wikidata parser and head debugger
 
