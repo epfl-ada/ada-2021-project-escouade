@@ -88,3 +88,7 @@ Milestone 3 is due on 17 December and homework 2 is due on 26 November. For M3 w
 ### Questions for TAs
 
 Crossing databases is going to pose a data size problem. We are thinking about reducing the data of interest to one or two particular years (e.g. 2018-2019 to be recent without taking into account Covid-related variables).
+
+### Data story 
+https://igag9.github.io/Site_web_ada/
+
