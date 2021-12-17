@@ -62,8 +62,11 @@ Finally, we wonder if it’s possible to predict movie’s ratings regarding sev
 
 ### Contribution of team members
 Céline: IMDb expert
+
 Inès: Wonderfull website designer
+
 Maud: Astonishing vizualisation maker
+
 Benoît: Wikidata parser and head debugger
 
 
