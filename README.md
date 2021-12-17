@@ -8,7 +8,7 @@
 
 In today's world, gender inequality is a phenomenon that is largely present and the cinema industry makes no exception to the rule. As inequalities have been largely highlighted by debates or studies during those previous years, a remaining question can be : what is the place of women in the cinema industry, as seen from the point of view of speakers in newspapers ?
 
-The goal of this project is to answer this question. For that, it will rely mainly on Quotebank, a database containing quotes attributed to individuals, which are extracted from newspapers between 2008 and 2020.  This project will focus on quotes from 2018 and will pave the way for future studies on other years.
+The goal of this project is to answer this question. For that, it will rely mainly on Quotebank, a database containing quotes attributed to individuals, which are extracted from newspapers between 2008 and 2020.  This project will focus on quotes from 2018 and will pave the way for future studies on other years. The conclusion of our work can be found [here](https://igag9.github.io/.github.io/)
 
 
 ## Research Questions
@@ -64,7 +64,7 @@ Finally, we wonder if it’s possible to predict movie’s ratings regarding sev
 
 Céline: IMDb expert and serial pickle maker
 
-Inès: Wonderfull website designer and problem resolver
+Inès: Wonderful website designer and problem resolver
 
 Maud: Astonishing vizualisation maker and question answering machine
 
